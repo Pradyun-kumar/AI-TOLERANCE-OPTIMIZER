@@ -523,7 +523,8 @@ with tab_cad:
             color = "#10b981" if val == "PASS" else "#ef4444"
             return f'color: {color}; font-weight: bold;'
 
-        st.dataframe(cad_parts.style.applymap(color_status, subset=["Status"]), use_container_width=True)
+        styled_cad_df = cad_parts.style.map(color_status, subset=["Status"]) if hasattr(cad_parts.style, "map") else cad_parts.style.applymap(color_status, subset=["Status"])
+        st.dataframe(styled_cad_df, use_container_width=True)
 
         n_fails = (cad_parts["Status"] == "FAIL").sum()
 
