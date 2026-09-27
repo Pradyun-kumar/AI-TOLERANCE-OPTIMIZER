@@ -1,0 +1,9 @@
+Part_ID,Part_Name,Nominal_Dimension_mm,Tolerance_mm,Manufacturing_Process,Material,Fit_Type,Allowable_Tolerance_mm
+NP001,Shaft,25.0,0.02,Grinding,Steel,Interference,0.03
+NP002,Bearing_Bore,25.0,0.08,Turning,Steel,Clearance,0.12
+NP003,Housing,60.0,0.05,Milling,Cast_Iron,Transition,0.06
+NP004,Retaining_Ring,15.0,0.10,Drilling,Aluminum,Clearance,0.12
+NP005,Spacer,20.0,0.07,Turning,Brass,Transition,0.06
+NP006,Shaft,30.0,0.15,Turning,Steel,Interference,0.03
+NP007,Bearing_Bore,40.0,0.03,Grinding,Steel,Transition,0.06
+NP008,Housing,55.0,0.11,Milling,Aluminum,Clearance,0.12

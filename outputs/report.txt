@@ -1,0 +1,19 @@
+AI-BASED TOLERANCE OPTIMIZATION - PREDICTION REPORT
+=======================================================
+Training rows used:      500
+Classifier accuracy:     98.0%
+Cost regressor MAE:      9.15
+
+New parts evaluated:     8
+  PASS: 6
+  FAIL: 2
+
+Per-part results:
+  NP001    Shaft           Tol=0.02     -> PASS  (est. cost 91.22)
+  NP002    Bearing_Bore    Tol=0.08     -> PASS  (est. cost 50.93)
+  NP003    Housing         Tol=0.05     -> PASS  (est. cost 87.29)
+  NP004    Retaining_Ring  Tol=0.1      -> PASS  (est. cost 28.85)
+  NP005    Spacer          Tol=0.07     -> FAIL  (est. cost 39.81)
+  NP006    Shaft           Tol=0.15     -> FAIL  (est. cost 29.1)
+  NP007    Bearing_Bore    Tol=0.03     -> PASS  (est. cost 121.49)
+  NP008    Housing         Tol=0.11     -> PASS  (est. cost 59.55)
